@@ -1,6 +1,6 @@
-# Rank List Labeler
+# RLHF 标注工具
 
-Rank List Labeler 是一个简单易用的在大模型进行 RLHF（基于人类反馈的强化学习）阶段，用于标注排序的工具，旨在帮助用户对生成式模型生成的答案进行排序标注。
+RLHF 标注工具 标注工具 是一个简单易用的在大模型进行 RLHF（基于人类反馈的强化学习）阶段，用于标注排序的工具，旨在帮助用户对生成式模型生成的答案进行排序标注。
 
 项目截图：
 <img width="1206" alt="image" src="https://github.com/SupritYoung/RLHF-Label-Tool/assets/30597946/d35b028c-d5c0-4769-a952-c2299357586f">
