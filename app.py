@@ -40,7 +40,7 @@ st.sidebar.markdown('''
     ```
 ''')
 st.sidebar.markdown('标注思路参考自 [InstructGPT](https://arxiv.org/pdf/2203.02155.pdf) 。')
-st.sidebar.markdown('项目 [github地址](https://github.com/SupritYoung/rlhf_label_tool). I need your ⭐️.')
+st.sidebar.markdown('项目 [github地址](https://github.com/SupritYoung/RLHF-Label-Tool). I need your ⭐️.')
 
 st.sidebar.header('📢 注意事项')
 st.sidebar.write('1. 需要预先构建好数据文件，格式参见 input_file.json。')
