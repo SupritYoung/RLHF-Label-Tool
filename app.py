@@ -60,9 +60,8 @@ with label_tab:
             data = json.load(f)
 
         query_ids = list(data.keys())
-        query_index = st.empty()
-        query_index_number = query_index.number_input('当前 query 编号（点击右边的➕➖前后跳转）：', min_value=0,
-                                                      max_value=len(query_ids) - 1, value=0)
+        query_index_number = st.number_input('当前 query 编号（点击右边的➕➖前后跳转）：', min_value=0,
+                                             max_value=len(query_ids) - 1, value=0)
 
         current_query_id = query_ids[query_index_number]
         current_query = data[current_query_id]['query']
@@ -118,9 +117,6 @@ with label_tab:
                 if query_index_number >= len(query_ids):
                     st.write('已完成所有查询的标注')
                     st.stop()
-
-                query_index.number_input('当前是第几个query', min_value=0, max_value=len(query_ids) - 1,
-                                         value=query_index_number)
 
                 st.success(f'{current_query_id} 数据保存完成')
         else:
