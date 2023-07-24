@@ -90,7 +90,7 @@ with label_tab:
                 rank_results.append(rank)
 
             st.markdown(f"<span style='color:{RANK_COLOR[i]}'>{response_text}</span>", unsafe_allow_html=True)
-            st.write(f'当前排名：**{rank}**')
+            # st.write(f'当前排名：**{rank}**')
             # st.write('---')
 
         # 排序存储功能
