@@ -1,0 +1,57 @@
+# Compiled Python files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Local development settings
+*.env
+*.env.*
+
+# Virtual environments
+venv/
+env/
+env.bak/
+env1/
+env2/
+bin/
+include/
+lib/
+Scripts/
+
+# Logs and temporary files
+*.log
+*.swp
+*.swo
+*.tmp
+
+# macOS specific files
+.DS_Store
+
+# Editor specific files
+.vscode/
+.idea/
+
+# Compiled files
+*.pyc
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore any file or directory with the name "secret" or containing sensitive information
+secret
+*sensitive*
+*.secret
+*.sensitive
+
+# Ignore any file or directory with the name "private" or containing private information
+private
+*.private
+
+# Ignore any file or directory with the name "test_results"
+test_results/
